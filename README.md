@@ -12,13 +12,19 @@ Started with what the data tells us in terms of readmissions
 
 Then went into analysing why (factors that contribute to readmissions) and finally provided actionable insights for physicians and hospitals treating diabetics.
 
-    1. Exploratory Data Analysis (EDA) of diabetic patients based on Race, Gender, Age, Weight
-
-    2. EDA of comorbidities – use diagnosis 1, 2 and 3 to understand the comorbidities distribution
-
-    3. Observed if there is causality between admission_type or admission_source_id and time_in_hospital
-
-     4. Impact of the following variables on readmission:
+   1. Exploratory Data Analysis (EDA) of diabetic patients based on Race, Gender, Age, Weight, DischargeSummary
+   ![Alt text](DischargeSummary.png?raw=true "DischargeSummary.png")
+   
+   2. EDA of comorbidities – use diagnosis 1, 2 and 3 to understand the comorbidities distribution
+   ![Alt text](Comorbidities.png?raw=true "Comorbidities.png")
+    
+   3. Observed if there is causality between admission_type or admission_source_id and time_in_hospital
+   ![Alt text](AdmissionSource&Type.png?raw=true "AdmissionSource&Type.png")
+   
+   ![Alt text](CausalityAnalysis.png?raw=true "CausalityAnalysis.png")
+    
+   4. Analysed the Impact of the following variables on readmission:
+          
           a.  race
           b.  gender
           c.  age
